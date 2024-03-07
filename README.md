@@ -1,3 +1,6 @@
+### API Dintero
+https://docs.dintero.com/checkout-api.html
+
 ## 🌟 Primeiros passos para o uso da biblioteca
 
 O uso simples de criar pagamento é mais ou menos assim:
