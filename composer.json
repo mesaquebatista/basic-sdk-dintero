@@ -1,0 +1,21 @@
+{
+    "name": "mesaquebatista/basic-sdk-dintero",
+    "description": "The project is a simple SDK capable of integrating with the Dintero payment system.",
+    "type": "libary",
+    "require": {
+        "laravel/framework": "^10.47",
+        "guzzlehttp/guzzle": "^7.8",
+        "psr/http-message": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mesaquebatista\\BasicSdkDintero\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mesaque Batista",
+            "email": "bmesaque@outlook.com"
+        }
+    ]
+}
