@@ -5,9 +5,9 @@ O uso simples de criar pagamento é mais ou menos assim:
 ```php
 <?php
     // Passo 1: Importar classes necessárias
-    use Src\Dintero\Client\Auth\AuthClient;
-    use Src\Dintero\Client\Session\SessionClient;
-    use Src\Dintero\DinteroConfig;
+    use BasicSdkDintero\Client\Auth\AuthClient;
+    use BasicSdkDintero\Client\Session\SessionClient;
+    use BasicSdkDintero\DinteroConfig;
 
     // Passo 2: Configurar ambiente Dintero
     DinteroConfig::setAccountId("<account_id>");
@@ -37,9 +37,9 @@ O uso simples de pegar pagamento é mais ou menos assim:
 ```php
 <?php
     // Passo 1: Importar classes necessárias
-    use Src\Dintero\Client\Auth\AuthClient;
-    use Src\Dintero\Client\Session\SessionClient;
-    use Src\Dintero\DinteroConfig;
+    use BasicSdkDintero\Client\Auth\AuthClient;
+    use BasicSdkDintero\Client\Session\SessionClient;
+    use BasicSdkDintero\DinteroConfig;
 
     // Passo 2: Configurar ambiente Dintero
     DinteroConfig::setAccountId("<account_id>");
